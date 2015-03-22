@@ -1,0 +1,8 @@
+/elm-stuff/
+/node_modules/
+/bower_components/
+/build/
+/.cabal-sandbox
+
+/cabal.sandbox.config
+/npm-debug.log
