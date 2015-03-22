@@ -1,0 +1,83 @@
+@navy: #134b99;
+@yellow: #f8e244;
+@orange: #ffc122;
+@green: #177339;
+@white: white;
+
+#app {
+    height: 100%;
+    padding: 1em;
+
+    > section {
+        display: flex;
+        flex-flow: row wrap;
+
+        > section, > h1 {
+            flex: 1 30%;
+        }
+        > section:first-child {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+
+            > label {
+                font-weight: bold;
+                flex: 1 auto;
+                margin: 0.5em;
+            }
+
+            > input {
+                padding: 0.5em 1em;
+                flex: 5 auto;
+            }
+
+            > button {
+                background-color: @navy;
+                color: @white;
+
+                padding: 0.5em 1em;
+                border: 0px;
+            }
+
+            > button#hat-add {
+                flex: 2 auto;
+                margin: 0.5em;
+            }
+
+            > button#hat-pick {
+                flex: 1 100%;
+                margin: 1em 0.5em;
+            }
+
+            > ul {
+                flex: 1 100%;
+
+                padding: 0em;
+                margin: 0em 0.5em;
+
+                > li {
+                    list-style-type: none;
+                    padding: 0.66em 1em;
+
+                    &:nth-child(odd) {
+                        background-color: @orange;
+                    }
+
+                    &:nth-child(even) {
+                        background-color: @yellow;
+                    }
+                }
+            }
+
+        }
+
+        > h1 {
+            background-color: @green;
+            color: white;
+            font-size: 3em;
+            margin: 0.5em;
+            padding: 0.2em;
+            text-align: center;
+        }
+    }
+}

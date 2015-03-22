@@ -1,0 +1,19 @@
+{
+  "name": "acatton-hat",
+  "version": "0.9.0",
+  "description": "",
+  "dependencies": {
+    "gulp": "~3.8.11",
+    "gulp-bower": "~0.0.10",
+    "gulp-concat": "~2.5.2",
+    "gulp-elm": "~0.2.0",
+    "gulp-inline": "~0.0.9",
+    "gulp-less": "~3.0.2",
+    "gulp-minify-css": "~1.0.0",
+    "gulp-minify-html": "~1.0.1",
+    "gulp-uglifyjs": "~0.6.1"
+  },
+  "author": "Antoine Catton",
+  "license": "WTFPLv2",
+  "private": true
+}

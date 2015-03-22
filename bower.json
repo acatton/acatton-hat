@@ -1,0 +1,9 @@
+{
+  "name": "acatton-hat",
+  "version": "0.9.0",
+  "license": "WTFPLv2",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
